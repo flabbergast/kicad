@@ -1,0 +1,6 @@
+[submodule "keyboard_parts.pretty"]
+	path = keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "alps64"]
+	path = alps64
+	url = https://github.com/tmk/alps64
