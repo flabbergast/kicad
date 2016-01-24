@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:kb45p-rescue
 LIBS:flabbergast
 LIBS:kb45p-cache
 EELAYER 25 0
@@ -7,10 +6,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "kb45p - 45% ALPS/Cherry MX keyboard PCB"
+Date "01/25/2016"
+Rev "0.1"
+Comp "flabbergast"
 Comment1 ""
 Comment2 ""
 Comment3 ""
