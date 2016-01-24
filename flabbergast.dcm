@@ -1,3 +1,78 @@
-EESchema-DOCLIB  Version 2.0
+EESchema-DOCLIB  Version 2.0  Date: Sat 13 Dec 2014 16:54:42 GMT
+#
+$CMP ATAES132_I2C
+D ATAES132 ATMEL crypto 4k EEPROM chip
+K ataes132, atmel, eeprom
+$ENDCMP
+#
+$CMP ATSHA204
+D ATSHA204 ATMEL crypto chip
+K atsha204 atmel
+$ENDCMP
+#
+$CMP AVCC
+D AVCC symbol
+K AVCC
+$ENDCMP
+#
+$CMP AVRSTICK-SHIELD
+D matrixstorm's AVR stick shield pins
+K avrstick shield
+$ENDCMP
+#
+$CMP DAC_2PIN
+D PDI 2 pin connector
+K connector
+$ENDCMP
+#
+$CMP FERRITE-BEAD
+D Ferrite bead
+K ferrite bead
+$ENDCMP
+#
+$CMP LED-RGB
+D RGB led
+K LED
+$ENDCMP
+#
+$CMP M05
+D 5 pin connector
+K connector
+$ENDCMP
+#
+$CMP MCP1703T
+D MCP1703T-3302E max 250mA 16V Linear Regulator, Fixed Output 3.3V, SOT-89
+K regulator, mcp1703, mcp1703t
+$ENDCMP
+#
+$CMP MICROSD_SOCKET
+D microSD socket (SMD, Sparkfun)
+K microSD
+$ENDCMP
+#
+$CMP PDI_PROG_2PIN
+D PDI 2 pin connector
+K connector
+$ENDCMP
+#
+$CMP S25FL127S
+D ATAES132 ATMEL crypto 4k EEPROM chip
+K ataes132, atmel, eeprom
+$ENDCMP
+#
+$CMP UEXT
+D UEXT connector (10 pin)
+K connector
+$ENDCMP
+#
+$CMP USB-A
+D USB connector, type A
+K USB
+$ENDCMP
+#
+$CMP VBUS
+D VBUS symbol
+K VBUS
+$ENDCMP
 #
 #End Doc Library
