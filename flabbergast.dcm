@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 13 Dec 2014 16:54:42 GMT
+EESchema-DOCLIB  Version 2.0
 #
 $CMP ATAES132_I2C
 D ATAES132 ATMEL crypto 4k EEPROM chip
@@ -33,6 +33,16 @@ $ENDCMP
 $CMP LED-RGB
 D RGB led
 K LED
+$ENDCMP
+#
+$CMP M03
+D 4 pin connector
+K connector
+$ENDCMP
+#
+$CMP M04
+D 4 pin connector
+K connector
 $ENDCMP
 #
 $CMP M05
