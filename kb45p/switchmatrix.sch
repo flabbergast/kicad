@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:kb45p-rescue
 LIBS:flabbergast
 LIBS:kb45p-cache
 EELAYER 25 0

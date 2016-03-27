@@ -1,4 +1,4 @@
-update=Sunday, 24 January 2016 22:24:50
+update=Friday, 18 March 2016 06:45:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,4 +29,5 @@ NetIExt=net
 version=1
 LibDir=/opt/homebrew-cask/Caskroom/kicad/4.0.1/Kicad/library;..
 [eeschema/libraries]
-LibName1=../flabbergast
+LibName1=kb45p-rescue
+LibName2=../flabbergast

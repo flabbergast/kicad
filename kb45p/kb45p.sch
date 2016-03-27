@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:kb45p-rescue
 LIBS:flabbergast
 LIBS:kb45p-cache
 EELAYER 25 0
@@ -281,7 +282,7 @@ $EndComp
 NoConn ~ 4450 1650
 NoConn ~ 4450 1750
 $Comp
-L M05 CON1
+L M05-RESCUE-kb45p CON1
 U 1 1 569FF832
 P 2150 1900
 F 0 "CON1" H 2250 2200 40  0000 C CNN
