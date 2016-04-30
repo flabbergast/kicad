@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:f042_dev-rescue
 LIBS:flabbergast
 LIBS:f042_dev-cache
 EELAYER 25 0

@@ -1,4 +1,4 @@
-update=Friday, 29 April 2016 10:03:17
+update=Saturday, 30 April 2016 13:53:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,4 +30,3 @@ version=1
 LibDir=/opt/homebrew-cask/Caskroom/kicad/4.0.1/Kicad/library;../../kicad
 [eeschema/libraries]
 LibName1=/Users/js/Documents/Programming/kicad/flabbergast
-LibName2=mchck-board/SparkFun

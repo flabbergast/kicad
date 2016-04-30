@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:flabbergast
-LIBS:SparkFun
 LIBS:stm32_qfp48_breakout-cache
 EELAYER 25 0
 EELAYER END
@@ -186,7 +185,7 @@ U 1 1 572331A3
 P 2250 2550
 F 0 "JP2" V 2200 2550 50  0000 L BNN
 F 1 "reg" V 2440 2550 50  0000 L BNN
-F 2 "flabbergast:SOLDER_JUMPER_ON" H 2250 2550 60  0001 C CNN
+F 2 "flabbergast:SOLDER_JUMPER_OFF" H 2250 2550 60  0001 C CNN
 F 3 "" H 2250 2550 60  0000 C CNN
 	1    2250 2550
 	1    0    0    -1  

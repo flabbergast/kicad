@@ -1,4 +1,4 @@
-update=Tuesday, 15 March 2016 09:34:08
+update=Saturday, 30 April 2016 19:57:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,4 +29,5 @@ version=1
 version=1
 LibDir=../../kicad
 [eeschema/libraries]
-LibName1=/Users/js/Documents/Programming/kicad/flabbergast
+LibName1=f042_dev-rescue
+LibName2=/Users/js/Documents/Programming/kicad/flabbergast
