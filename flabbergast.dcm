@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
 $CMP ATAES132_I2C
 D ATAES132 ATMEL crypto 4k EEPROM chip
 K ataes132, atmel, eeprom
@@ -83,6 +91,18 @@ $ENDCMP
 $CMP VBUS
 D VBUS symbol
 K VBUS
+$ENDCMP
+#
+$CMP VDD
+K POWER, PWR
+$ENDCMP
+#
+$CMP VDDA
+K POWER, PWR
+$ENDCMP
+#
+$CMP VIN
+K POWER, PWR
 $ENDCMP
 #
 #End Doc Library
