@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:stm32_qfp48_breakout-rescue
 LIBS:flabbergast
 LIBS:stm32_qfp48_breakout-cache
 EELAYER 25 0
@@ -27,7 +28,7 @@ F 3 "" H 4650 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_mini_micro_B J1
+L USB_mini_micro_B-RESCUE-stm32_qfp48_breakout J1
 U 1 1 572321C9
 P 1350 1600
 F 0 "J1" H 950 1550 60  0000 C CNN
@@ -38,7 +39,7 @@ F 3 "" H 1300 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L M01 PAD1
+L M01-RESCUE-stm32_qfp48_breakout PAD1
 U 1 1 572328CF
 P 1600 1350
 F 0 "PAD1" H 1600 1350 60  0001 C CNN

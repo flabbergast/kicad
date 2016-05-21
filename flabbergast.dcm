@@ -43,6 +43,16 @@ D RGB led
 K LED
 $ENDCMP
 #
+$CMP M01
+D 5 pin connector
+K connector
+$ENDCMP
+#
+$CMP M02
+D 5 pin connector
+K connector
+$ENDCMP
+#
 $CMP M03
 D 4 pin connector
 K connector
@@ -54,6 +64,21 @@ K connector
 $ENDCMP
 #
 $CMP M05
+D 5 pin connector
+K connector
+$ENDCMP
+#
+$CMP M06
+D 5 pin connector
+K connector
+$ENDCMP
+#
+$CMP M08
+D 5 pin connector
+K connector
+$ENDCMP
+#
+$CMP M09
 D 5 pin connector
 K connector
 $ENDCMP
@@ -71,6 +96,16 @@ $ENDCMP
 $CMP PDI_PROG_2PIN
 D PDI 2 pin connector
 K connector
+$ENDCMP
+#
+$CMP PWR_IN
+D VBUS symbol
+K VBUS
+$ENDCMP
+#
+$CMP PWR_OUT
+D VBUS symbol
+K VBUS
 $ENDCMP
 #
 $CMP S25FL127S

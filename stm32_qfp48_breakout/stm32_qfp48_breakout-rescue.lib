@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# M01-RESCUE-stm32_qfp48_breakout
+#
+DEF ~M01-RESCUE-stm32_qfp48_breakout U 0 100 Y Y 2 F N
+F0 "U" 0 0 0 H I C CNN
+F1 "M01-RESCUE-stm32_qfp48_breakout" 0 0 0 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ M01*
+$ENDFPLIST
+DRAW
+C 0 50 25 0 0 10 N
+P 2 0 0 6  0 0  0 25 N
+X 1 1 0 0 0 U 0 0 0 0 B
+ENDDRAW
+ENDDEF
+#
+# USB_mini_micro_B-RESCUE-stm32_qfp48_breakout
+#
+DEF ~USB_mini_micro_B-RESCUE-stm32_qfp48_breakout J 0 40 Y Y 1 F N
+F0 "J" -400 -50 60 H V C CNN
+F1 "USB_mini_micro_B-RESCUE-stm32_qfp48_breakout" -150 250 60 H I C CNN
+F2 "" -50 0 60 H V C CNN
+F3 "" -50 0 60 H V C CNN
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+S -350 200 -50 -400 0 1 0 N
+X VUSB 1 150 150 200 L 50 50 1 1 w
+X D- 2 150 50 200 L 50 50 1 1 B
+X D+ 3 150 -50 200 L 50 50 1 1 B
+X ID 4 150 -150 200 L 50 50 1 1 I
+X GND 5 150 -250 200 L 50 50 1 1 w
+X SHIELD 6 150 -350 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

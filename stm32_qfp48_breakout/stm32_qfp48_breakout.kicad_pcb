@@ -1454,7 +1454,7 @@
   (gr_text vd (at 184.912 104.14 90) (layer F.SilkS)
     (effects (font (size 0.89916 0.89916) (thickness 0.14986)))
   )
-  (gr_text 13 (at 184.023 107.569) (layer F.SilkS)
+  (gr_text 15 (at 184.023 107.569) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.127)))
   )
   (gr_text 14 (at 185.42 107.95 315) (layer F.SilkS)

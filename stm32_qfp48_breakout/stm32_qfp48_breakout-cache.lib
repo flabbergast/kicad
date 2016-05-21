@@ -125,11 +125,11 @@ X K 2 -200 0 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# M01
+# M01-RESCUE-stm32_qfp48_breakout
 #
-DEF ~M01 U 0 100 Y Y 2 F N
+DEF ~M01-RESCUE-stm32_qfp48_breakout U 0 100 Y Y 2 F N
 F0 "U" 0 0 0 H I C CNN
-F1 "M01" 0 0 0 H I C CNN
+F1 "M01-RESCUE-stm32_qfp48_breakout" 0 0 0 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -144,8 +144,8 @@ ENDDEF
 #
 # M05
 #
-DEF M05 C 0 100 Y Y 1 F N
-F0 "C" -50 300 40 H V C CNN
+DEF M05 U 0 100 Y Y 1 F N
+F0 "U" -50 300 40 H V C CNN
 F1 "M05" 0 -300 40 H V C CNN
 F2 "" -150 0 60 H V C CNN
 F3 "" -150 0 60 H V C CNN
@@ -341,11 +341,11 @@ X PB3 39 750 950 200 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# USB_mini_micro_B
+# USB_mini_micro_B-RESCUE-stm32_qfp48_breakout
 #
-DEF ~USB_mini_micro_B J 0 40 Y Y 1 F N
+DEF ~USB_mini_micro_B-RESCUE-stm32_qfp48_breakout J 0 40 Y Y 1 F N
 F0 "J" -400 -50 60 H V C CNN
-F1 "USB_mini_micro_B" -150 250 60 H I C CNN
+F1 "USB_mini_micro_B-RESCUE-stm32_qfp48_breakout" -150 250 60 H I C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 $FPLIST
