@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/js/dynamic/general/repos/kicad_public/stm32_qfp48_breakout/stm32_qfp48_breakout.sch</source>
+    <date>Monday, 30 October 2017 07:53:37</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>the bat board: a stm32 qfp48 breakout board</title>
+        <company>flabbergast</company>
+        <rev>rev3</rev>
+        <date>2017-10-26</date>
+        <source>stm32_qfp48_breakout.sch</source>
+        <comment number="1" value="rev2 &gt; rev1: add R3, add JP3, rearrange power pinout"/>
+        <comment number="2" value="rev3 &gt; rev2: connect PB2=BOOT1 to GND"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>STM32L052C8T7</value>
+      <footprint>flabbergast:LQFP48</footprint>
+      <libsource lib="flabbergast" part="STM32L052C8T7"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57232197</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_mini_micro_B</value>
+      <footprint>flabbergast:USB_microB_2TH_OSHPARK</footprint>
+      <libsource lib="stm32_qfp48_breakout-rescue" part="USB_mini_micro_B-RESCUE-stm32_qfp48_breakout"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572321C9</tstamp>
+    </comp>
+    <comp ref="PAD1">
+      <value>M01</value>
+      <footprint>flabbergast:M01_NOSILK</footprint>
+      <libsource lib="stm32_qfp48_breakout-rescue" part="M01-RESCUE-stm32_qfp48_breakout"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572328CF</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>USB_PWR</value>
+      <footprint>flabbergast:SOLDER_JUMPER_OFF_PASTE</footprint>
+      <libsource lib="flabbergast" part="JUMPER-2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57232B9B</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>NCV8170</value>
+      <footprint>flabbergast:SOT-563</footprint>
+      <libsource lib="flabbergast" part="NCV8170"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572330F8</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>reg</value>
+      <footprint>flabbergast:SOLDER_JUMPER_OFF_PASTE</footprint>
+      <libsource lib="flabbergast" part="JUMPER-2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572331A3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572328FC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57232987</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FERRITE-BEAD</value>
+      <footprint>flabbergast:0603_JUMPERED</footprint>
+      <libsource lib="flabbergast" part="FERRITE-BEAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57232F31</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>flabbergast:0603_NOPASTE</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57232FAC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57233265</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5723329C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572332CE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5723330A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10kR</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5723450B</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>PA1</value>
+      <footprint>flabbergast:TACTILE-SWITCH-SMT-4x3</footprint>
+      <libsource lib="flabbergast" part="PUSHBUTTON-SQUARE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5723455B</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>RESET</value>
+      <footprint>flabbergast:TACTILE-SWITCH-SMT-4x3</footprint>
+      <libsource lib="flabbergast" part="PUSHBUTTON-SQUARE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57234ACB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1kR</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57234FFE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>flabbergast:LED-0603</footprint>
+      <libsource lib="flabbergast" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57235088</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>M14</value>
+      <footprint>flabbergast:M14_LOCK_NOSILK</footprint>
+      <libsource lib="flabbergast" part="M14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572357B9</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>M14</value>
+      <footprint>flabbergast:M14_LOCK_NOSILK</footprint>
+      <libsource lib="flabbergast" part="M14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5723586B</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>M05</value>
+      <footprint>flabbergast:M05_LOCK_NOSILK</footprint>
+      <libsource lib="flabbergast" part="M05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57235B5B</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>CRYSTAL</value>
+      <footprint>flabbergast:CRYSTAL-ABM3</footprint>
+      <libsource lib="flabbergast" part="CRYSTAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57237E92</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>18pF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572383ED</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>18pF</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57238456</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>BT0</value>
+      <footprint>flabbergast:SOLDER_JUMPER_ON</footprint>
+      <libsource lib="flabbergast" part="JUMPER-2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5740521A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.5kR</value>
+      <footprint>flabbergast:0603</footprint>
+      <libsource lib="flabbergast" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5749E614</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="flabbergast" part="CAP">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="CRYSTAL">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="FERRITE-BEAD">
+      <description>Ferrite bead</description>
+      <footprints>
+        <fp>0805</fp>
+        <fp>1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FERRITE-BEAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="JUMPER-2">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32_qfp48_breakout-rescue" part="M01-RESCUE-stm32_qfp48_breakout">
+      <footprints>
+        <fp>M01*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">M01-RESCUE-stm32_qfp48_breakout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="M05">
+      <description>5 pin connector</description>
+      <footprints>
+        <fp>M05*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">M05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="M14">
+      <description>14 pin connector</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">M14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="NCV8170">
+      <footprints>
+        <fp>SOT23A-3</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NCV8170</field>
+        <field name="Footprint">SOT-563</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="EN" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="PUSHBUTTON-SQUARE">
+      <footprints>
+        <fp>TACTILE-SWITCH*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">PUSHBUTTON-SQUARE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="RES">
+      <footprints>
+        <fp>R?</fp>
+        <fp>0603</fp>
+        <fp>0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="flabbergast" part="STM32L052C8T7">
+      <footprints>
+        <fp>LQFP-32</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">STM32L052C8T7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13" type="input"/>
+        <pin num="3" name="PC14-OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15-OSC32_OUT" type="BiDi"/>
+        <pin num="5" name="PH0-OSC_IN" type="BiDi"/>
+        <pin num="6" name="PH1-OSC_OUT" type="BiDi"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2-TX2" type="BiDi"/>
+        <pin num="13" name="PA3-RX2" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9-TX1" type="BiDi"/>
+        <pin num="31" name="PA10-RX1" type="BiDi"/>
+        <pin num="32" name="PA11-USB_DM" type="BiDi"/>
+        <pin num="33" name="PA12-USB_DP" type="BiDi"/>
+        <pin num="34" name="PA13-SWDIO" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD_USB" type="power_in"/>
+        <pin num="37" name="PA14-SWCLK" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="BiDi"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32_qfp48_breakout-rescue" part="USB_mini_micro_B-RESCUE-stm32_qfp48_breakout">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_mini_micro_B-RESCUE-stm32_qfp48_breakout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VUSB" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="flabbergast">
+      <uri>/Users/js/dynamic/general/repos/kicad/flabbergast.lib</uri>
+    </library>
+    <library logical="stm32_qfp48_breakout-rescue">
+      <uri>/Users/js/dynamic/general/repos/kicad_public/stm32_qfp48_breakout/stm32_qfp48_breakout-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="SWDIO">
+      <node ref="U3" pin="4"/>
+      <node ref="IC1" pin="34"/>
+    </net>
+    <net code="3" name="SWCLK">
+      <node ref="IC1" pin="37"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="4" name="B3">
+      <node ref="U2" pin="13"/>
+      <node ref="IC1" pin="39"/>
+    </net>
+    <net code="5" name="B4">
+      <node ref="U2" pin="12"/>
+      <node ref="IC1" pin="40"/>
+    </net>
+    <net code="6" name="B5">
+      <node ref="IC1" pin="41"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="7" name="B6">
+      <node ref="U2" pin="10"/>
+      <node ref="IC1" pin="42"/>
+    </net>
+    <net code="8" name="B7">
+      <node ref="U2" pin="9"/>
+      <node ref="IC1" pin="43"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="9" name="B8">
+      <node ref="U2" pin="8"/>
+      <node ref="IC1" pin="45"/>
+    </net>
+    <net code="10" name="B9">
+      <node ref="U2" pin="7"/>
+      <node ref="IC1" pin="46"/>
+    </net>
+    <net code="11" name="C13">
+      <node ref="IC1" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="12" name="C14">
+      <node ref="U2" pin="5"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="13" name="C15">
+      <node ref="U2" pin="4"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="14" name="RESET_BTN">
+      <node ref="IC1" pin="7"/>
+      <node ref="S1" pin="2"/>
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="D1" pin="2"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="S1" pin="4"/>
+      <node ref="S1" pin="3"/>
+      <node ref="IC1" pin="35"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="14"/>
+      <node ref="IC1" pin="47"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC1" pin="23"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="16" name="OSC_OUT">
+      <node ref="C9" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="17" name="OSC_IN">
+      <node ref="IC1" pin="5"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="18" name="A9">
+      <node ref="IC1" pin="30"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="19" name="A10">
+      <node ref="IC1" pin="31"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="22" name="B13">
+      <node ref="U1" pin="14"/>
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="23" name="B11">
+      <node ref="U1" pin="10"/>
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="24" name="B10">
+      <node ref="IC1" pin="21"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="25" name="A7">
+      <node ref="U1" pin="6"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="26" name="A6">
+      <node ref="U1" pin="7"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="27" name="A5">
+      <node ref="IC1" pin="15"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="28" name="A4">
+      <node ref="IC1" pin="14"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="29" name="A3">
+      <node ref="U1" pin="12"/>
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="30" name="A2">
+      <node ref="U1" pin="13"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="31" name="A1(BOOT)">
+      <node ref="JP3" pin="2"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="32" name="LED">
+      <node ref="IC1" pin="38"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="33" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="34" name="B12">
+      <node ref="IC1" pin="25"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="35" name="B14">
+      <node ref="IC1" pin="27"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="36" name="B15">
+      <node ref="U2" pin="2"/>
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad29)">
+      <node ref="IC1" pin="29"/>
+    </net>
+    <net code="38" name="USB_D+">
+      <node ref="R3" pin="2"/>
+      <node ref="IC1" pin="33"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="39" name="USB_D-">
+      <node ref="IC1" pin="32"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="40" name="VDDA">
+      <node ref="IC1" pin="9"/>
+      <node ref="C7" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="41" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="42" name="VIN">
+      <node ref="C6" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="PAD1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="45" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="46" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="47" name="VDD">
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="F1" pin="1"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="IC1" pin="48"/>
+      <node ref="IC1" pin="36"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="S2" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="48" name="BOOT0">
+      <node ref="IC1" pin="44"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>

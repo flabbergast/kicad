@@ -7,12 +7,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "STM32-QFP48-BREAKOUT"
-Date "29/04/16"
-Rev "rev2"
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "the bat board: a stm32 qfp48 breakout board"
+Date "2017-10-26"
+Rev "rev3"
+Comp "flabbergast"
+Comment1 "rev2 > rev1: add R3, add JP3, rearrange power pinout"
+Comment2 "rev3 > rev2: connect PB2=BOOT1 to GND"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -958,7 +958,6 @@ Wire Wire Line
 	5550 2650 5400 2650
 NoConn ~ 5400 3250
 NoConn ~ 5400 3150
-NoConn ~ 5400 3050
 Wire Wire Line
 	5550 1250 5400 1250
 Wire Wire Line
@@ -1032,4 +1031,17 @@ Wire Wire Line
 	2500 1050 2400 1050
 Text GLabel 2500 1050 2    60   Input ~ 0
 B7
+$Comp
+L GND #PWR?
+U 1 1 59F1A550
+P 5650 3050
+F 0 "#PWR?" H 5650 2800 50  0001 C CNN
+F 1 "GND" H 5650 2900 50  0000 C CNN
+F 2 "" H 5650 3050 60  0000 C CNN
+F 3 "" H 5650 3050 60  0000 C CNN
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3050 5400 3050
 $EndSCHEMATC

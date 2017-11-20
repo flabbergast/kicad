@@ -1,4 +1,4 @@
-update=Thursday, 12 May 2016 17:44:19
+update=Thursday, 02 November 2017 07:40:04
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,13 @@ LibDir=/opt/homebrew-cask/Caskroom/kicad/4.0.1/Kicad/library;../../kicad
 [eeschema/libraries]
 LibName1=stm32_qfp48_breakout-rescue
 LibName2=/Users/js/Documents/Programming/kicad/flabbergast
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

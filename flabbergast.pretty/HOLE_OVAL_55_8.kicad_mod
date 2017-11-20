@@ -1,9 +1,0 @@
-(module HOLE_OVAL_55_8 (layer F.Cu) (tedit 569FA733)
-  (fp_text reference HOLE (at 0 3.175) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.524) (thickness 0.2032)))
-  )
-  (fp_text value 55_8MM (at 0 5.08) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.524) (thickness 0.2032)))
-  )
-  (pad "" np_thru_hole oval (at 0 0) (size 8 5.5) (drill oval 8 5.5) (layers *.Cu))
-)
