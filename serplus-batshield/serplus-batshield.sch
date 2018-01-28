@@ -1,0 +1,488 @@
+EESchema Schematic File Version 2
+LIBS:flabbergast
+LIBS:Switch
+LIBS:Device
+LIBS:Connector_Generic
+LIBS:LED
+LIBS:serplus-batshield-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "SerPlus shield for the bat board"
+Date "22/11/2017"
+Rev "rev3"
+Comp "flabbergast"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WS2812B LED1
+U 1 1 5A143339
+P 3300 2100
+F 0 "LED1" H 3300 1900 50  0000 C CNN
+F 1 "WS2812B" H 3300 2200 50  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 3300 1800 50  0001 C CNN
+F 3 "" H 3300 2050 50  0001 C CNN
+	1    3300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A1433F4
+P 4550 4250
+F 0 "R2" V 4630 4250 50  0000 C CNN
+F 1 "10kR" V 4550 4250 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 4550 4250 60  0001 C CNN
+F 3 "" H 4550 4250 60  0000 C CNN
+	1    4550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5A14343A
+P 6650 3450
+F 0 "R4" V 6730 3450 50  0000 C CNN
+F 1 "390R" V 6650 3450 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 6650 3450 60  0001 C CNN
+F 3 "" H 6650 3450 60  0000 C CNN
+	1    6650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A143462
+P 6200 3650
+F 0 "R5" V 6280 3650 50  0000 C CNN
+F 1 "390R" V 6200 3650 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 6200 3650 60  0001 C CNN
+F 3 "" H 6200 3650 60  0000 C CNN
+	1    6200 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5A143496
+P 6650 3250
+F 0 "R6" V 6730 3250 50  0000 C CNN
+F 1 "390R" V 6650 3250 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 6650 3250 60  0001 C CNN
+F 3 "" H 6650 3250 60  0000 C CNN
+	1    6650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5A1434FC
+P 4550 3550
+F 0 "R1" V 4630 3550 50  0000 C CNN
+F 1 "10kR" V 4550 3550 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 4550 3550 60  0001 C CNN
+F 3 "" H 4550 3550 60  0000 C CNN
+	1    4550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5A143523
+P 6150 3350
+F 0 "R3" V 6230 3350 50  0000 C CNN
+F 1 "390R" V 6150 3350 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 6150 3350 60  0001 C CNN
+F 3 "" H 6150 3350 60  0000 C CNN
+	1    6150 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_SP3T SW2
+U 1 1 5A14356B
+P 2250 4750
+F 0 "SW2" H 2250 4950 50  0000 C CNN
+F 1 "SW_SP3T" H 2250 4550 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SP3T_PCM13" H 1625 4925 50  0001 C CNN
+F 3 "" H 1625 4925 50  0001 C CNN
+	1    2250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW1
+U 1 1 5A14363D
+P 5150 2200
+F 0 "SW1" H 5200 2300 50  0000 L CNN
+F 1 "SW_Push" H 5150 2140 50  0000 C CNN
+F 2 "flabbergast:TACTILE-SWITCH-SMT-1101NE" H 5150 2400 50  0001 C CNN
+F 3 "" H 5150 2400 50  0001 C CNN
+	1    5150 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 3750 0    60   Input ~ 0
+PB3
+$Comp
+L Q_PMOS_GSD Q1
+U 1 1 5A143FB2
+P 1950 3750
+F 0 "Q1" H 2150 3800 50  0000 L CNN
+F 1 "Q_PMOS_GSD" H 2150 3700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2150 3850 50  0001 C CNN
+F 3 "" H 1950 3750 50  0001 C CNN
+	1    1950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x11 J1
+U 1 1 5A14483A
+P 7400 2100
+F 0 "J1" H 7400 2700 50  0000 C CNN
+F 1 "BOARD" H 7400 1500 50  0000 C CNN
+F 2 "flabbergast:M11_NOSILK" H 7400 2100 50  0001 C CNN
+F 3 "" H 7400 2100 50  0001 C CNN
+	1    7400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J2
+U 1 1 5A144A43
+P 7400 3450
+F 0 "J2" H 7400 3750 50  0000 C CNN
+F 1 "FTDI" H 7400 3050 50  0000 C CNN
+F 2 "flabbergast:M06_LOCK_NOSILK" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0001 C CNN
+	1    7400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5A1450D5
+P 2350 2100
+F 0 "D1" H 2350 2200 50  0000 C CNN
+F 1 "1D4148" H 2350 2000 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 2100 50  0001 C CNN
+F 3 "" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 5A145467
+P 1950 2100
+F 0 "#PWR01" H 1950 1950 50  0001 C CNN
+F 1 "+5V" H 1950 2240 50  0000 C CNN
+F 2 "" H 1950 2100 50  0000 C CNN
+F 3 "" H 1950 2100 50  0000 C CNN
+	1    1950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A1454D7
+P 2550 2700
+F 0 "#PWR02" H 2550 2450 50  0001 C CNN
+F 1 "GND" H 2550 2550 50  0000 C CNN
+F 2 "" H 2550 2700 60  0000 C CNN
+F 3 "" H 2550 2700 60  0000 C CNN
+	1    2550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A145527
+P 3850 2350
+F 0 "#PWR03" H 3850 2100 50  0001 C CNN
+F 1 "GND" H 3850 2200 50  0000 C CNN
+F 2 "" H 3850 2350 60  0000 C CNN
+F 3 "" H 3850 2350 60  0000 C CNN
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 2100
+Text GLabel 2850 2200 0    60   Input ~ 0
+PA7
+$Comp
+L C_Small C1
+U 1 1 5A145A04
+P 2550 2450
+F 0 "C1" H 2560 2520 50  0000 L CNN
+F 1 "0.1uF" H 2560 2370 50  0000 L CNN
+F 2 "flabbergast:0805_wide" H 2550 2450 50  0001 C CNN
+F 3 "" H 2550 2450 50  0001 C CNN
+	1    2550 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 2200 0    60   Input ~ 0
+PA6
+$Comp
+L GND #PWR04
+U 1 1 5A14614D
+P 5600 2200
+F 0 "#PWR04" H 5600 1950 50  0001 C CNN
+F 1 "GND" H 5600 2050 50  0000 C CNN
+F 2 "" H 5600 2200 60  0000 C CNN
+F 3 "" H 5600 2200 60  0000 C CNN
+	1    5600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2100 2900 2100
+Wire Wire Line
+	1950 2100 2200 2100
+Connection ~ 2550 2100
+Wire Wire Line
+	3700 2200 3850 2200
+Wire Wire Line
+	3850 2200 3850 2350
+Wire Wire Line
+	2850 2200 2900 2200
+Wire Wire Line
+	2550 1850 2550 2350
+Wire Wire Line
+	2550 2700 2550 2550
+Wire Wire Line
+	4800 2200 4950 2200
+Wire Wire Line
+	5600 2200 5350 2200
+Wire Wire Line
+	6900 3250 7200 3250
+Wire Wire Line
+	6400 3350 7200 3350
+Wire Wire Line
+	6900 3450 7200 3450
+Wire Wire Line
+	6450 3650 7200 3650
+$Comp
+L GND #PWR05
+U 1 1 5A146DE6
+P 7050 3850
+F 0 "#PWR05" H 7050 3600 50  0001 C CNN
+F 1 "GND" H 7050 3700 50  0000 C CNN
+F 2 "" H 7050 3850 60  0000 C CNN
+F 3 "" H 7050 3850 60  0000 C CNN
+	1    7050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3850 7050 3750
+Wire Wire Line
+	7050 3750 7200 3750
+Text GLabel 5750 3250 0    60   Input ~ 0
+PB10/DTR
+Wire Wire Line
+	5750 3250 6400 3250
+Text GLabel 5750 3650 0    60   Input ~ 0
+PB11/RTS
+Text GLabel 5750 3450 0    60   Input ~ 0
+PA9/TX
+Text GLabel 5750 3350 0    60   Input ~ 0
+PA10/RX
+Wire Wire Line
+	5750 3350 5900 3350
+Wire Wire Line
+	5750 3450 6400 3450
+Wire Wire Line
+	5750 3650 5950 3650
+Text GLabel 5750 3550 0    60   Input ~ 0
+PWR_OUT
+Wire Wire Line
+	5750 3550 7200 3550
+Text GLabel 2050 3300 2    60   Input ~ 0
+PWR_OUT
+Wire Wire Line
+	2050 3550 2050 3300
+$Comp
+L +5V #PWR06
+U 1 1 5A147C44
+P 2700 4650
+F 0 "#PWR06" H 2700 4500 50  0001 C CNN
+F 1 "+5V" H 2700 4790 50  0000 C CNN
+F 2 "" H 2700 4650 50  0000 C CNN
+F 3 "" H 2700 4650 50  0000 C CNN
+	1    2700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR07
+U 1 1 5A147D4D
+P 3150 4850
+F 0 "#PWR07" H 3150 4700 50  0001 C CNN
+F 1 "+3.3V" H 3150 4990 50  0000 C CNN
+F 2 "" H 3150 4850 50  0000 C CNN
+F 3 "" H 3150 4850 50  0000 C CNN
+	1    3150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4650 2450 4650
+Wire Wire Line
+	1550 3750 1750 3750
+Text GLabel 4550 3200 2    60   Input ~ 0
+PWR_OUT
+Wire Wire Line
+	4550 3200 4550 3300
+$Comp
+L GND #PWR08
+U 1 1 5A148450
+P 4550 4600
+F 0 "#PWR08" H 4550 4350 50  0001 C CNN
+F 1 "GND" H 4550 4450 50  0000 C CNN
+F 2 "" H 4550 4600 60  0000 C CNN
+F 3 "" H 4550 4600 60  0000 C CNN
+	1    4550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4600 4550 4500
+Text GLabel 4400 3900 0    60   Input ~ 0
+PA4
+Wire Wire Line
+	4400 3900 4550 3900
+Wire Wire Line
+	4550 3800 4550 4000
+Connection ~ 4550 3900
+$Comp
+L +5V #PWR09
+U 1 1 5A148948
+P 7050 1600
+F 0 "#PWR09" H 7050 1450 50  0001 C CNN
+F 1 "+5V" H 7050 1740 50  0000 C CNN
+F 2 "" H 7050 1600 50  0000 C CNN
+F 3 "" H 7050 1600 50  0000 C CNN
+	1    7050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1600 7200 1600
+$Comp
+L GND #PWR010
+U 1 1 5A1489E4
+P 6550 1700
+F 0 "#PWR010" H 6550 1450 50  0001 C CNN
+F 1 "GND" H 6550 1550 50  0000 C CNN
+F 2 "" H 6550 1700 60  0000 C CNN
+F 3 "" H 6550 1700 60  0000 C CNN
+	1    6550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR011
+U 1 1 5A148A99
+P 6850 1600
+F 0 "#PWR011" H 6850 1450 50  0001 C CNN
+F 1 "+3.3V" H 6850 1740 50  0000 C CNN
+F 2 "" H 6850 1600 50  0000 C CNN
+F 3 "" H 6850 1600 50  0000 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1600 6850 1800
+Wire Wire Line
+	6850 1800 7200 1800
+Text GLabel 7100 1900 0    60   Input ~ 0
+PA9/TX
+Wire Wire Line
+	6550 1700 7200 1700
+Text GLabel 7100 2000 0    60   Input ~ 0
+PA10/RX
+Text GLabel 7100 2100 0    60   Input ~ 0
+PA7
+Text GLabel 7100 2200 0    60   Input ~ 0
+PA6
+Text GLabel 7100 2300 0    60   Input ~ 0
+PA5
+Text GLabel 7100 2400 0    60   Input ~ 0
+PA4
+Text GLabel 7100 2500 0    60   Input ~ 0
+PB11/RTS
+Text GLabel 7100 2600 0    60   Input ~ 0
+PB10/DTR
+Wire Wire Line
+	7100 2600 7200 2600
+Wire Wire Line
+	7100 2500 7200 2500
+Wire Wire Line
+	7100 2400 7200 2400
+Wire Wire Line
+	7200 2300 7100 2300
+Wire Wire Line
+	7100 2200 7200 2200
+Wire Wire Line
+	7200 2100 7100 2100
+Wire Wire Line
+	7100 2000 7200 2000
+Wire Wire Line
+	7200 1900 7100 1900
+Wire Wire Line
+	2150 2100 2150 1850
+Wire Wire Line
+	2150 1850 2550 1850
+Connection ~ 2150 2100
+Text Notes 2050 1800 0    60   ~ 0
+trace to be cut\nif diode is needed
+Wire Wire Line
+	2050 3950 2050 4750
+Wire Wire Line
+	2050 4100 2700 4100
+Wire Wire Line
+	2700 4100 2700 3450
+Wire Wire Line
+	2700 3450 2050 3450
+Connection ~ 2050 3450
+Connection ~ 2050 4100
+Text Notes 2750 3700 0    60   ~ 0
+trace to be cut\nif P-FET is fitted
+Wire Wire Line
+	2500 4350 2500 4650
+Connection ~ 2500 4650
+Wire Wire Line
+	2450 4850 3150 4850
+Text Notes 2550 4450 0    60   ~ 0
+trace to be cut\nif switch is fitted
+Wire Wire Line
+	2500 4350 2050 4350
+Connection ~ 2050 4350
+$Comp
+L Conn_01x02 J3
+U 1 1 5A1545F2
+P 7400 4450
+F 0 "J3" H 7400 4550 50  0000 C CNN
+F 1 "mount" H 7400 4250 50  0000 C CNN
+F 2 "flabbergast:M02_NOSILK" H 7400 4450 50  0001 C CNN
+F 3 "" H 7400 4450 50  0001 C CNN
+	1    7400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5A1546E9
+P 7100 4550
+F 0 "#PWR012" H 7100 4300 50  0001 C CNN
+F 1 "GND" H 7100 4400 50  0000 C CNN
+F 2 "" H 7100 4550 60  0000 C CNN
+F 3 "" H 7100 4550 60  0000 C CNN
+	1    7100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4550 7200 4550
+Text GLabel 7100 4450 0    60   Input ~ 0
+PB3
+Wire Wire Line
+	7100 4450 7200 4450
+$Comp
+L R R7
+U 1 1 5A15AD9C
+P 1650 4000
+F 0 "R7" V 1730 4000 50  0000 C CNN
+F 1 "10kR" V 1650 4000 50  0000 C CNN
+F 2 "flabbergast:0805_wide" H 1650 4000 60  0001 C CNN
+F 3 "" H 1650 4000 60  0000 C CNN
+	1    1650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4250 2050 4250
+Connection ~ 2050 4250
+Connection ~ 1650 3750
+$EndSCHEMATC

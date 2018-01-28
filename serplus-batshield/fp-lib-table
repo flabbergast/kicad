@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name LED_SMD)(type KiCad)(uri /Users/js/Documents/kicad/kicad-footprints/LED_SMD.pretty)(options "")(descr ""))
+  (lib (name Button_Switch_SMD)(type KiCad)(uri /Users/js/Documents/kicad/kicad-footprints/Button_Switch_SMD.pretty)(options "")(descr ""))
+  (lib (name Diode_SMD)(type KiCad)(uri /Users/js/Documents/kicad/kicad-footprints/Diode_SMD.pretty)(options "")(descr ""))
+  (lib (name Package_TO_SOT_SMD)(type KiCad)(uri /Users/js/Documents/kicad/kicad-footprints/Package_TO_SOT_SMD.pretty)(options "")(descr ""))
+)
